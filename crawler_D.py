@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 fo = open("sol.txt", "w+")
 
 for i in range(1, 100, 1):
-	fs = open('data/bihua_' + str(i) + '.html', 'r+',)
+	fs = open('xxx_' + str(i) + '.html', 'r+',)
 
 	html = fs.read()
 
